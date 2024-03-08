@@ -15,6 +15,10 @@ test_text = Text_Box(window, (0, 0, 200, 100), 'test')
 clock = pygame.time.Clock()
 is_running = True
 
+pygame.event.set_blocked(pygame.FINGERDOWN)
+pygame.event.set_blocked(pygame.FINGERUP)
+pygame.event.set_blocked(pygame.FINGERMOTION)
+
 def consumer(text):
   print('Current text : %s' % text)
 
