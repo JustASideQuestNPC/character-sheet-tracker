@@ -1,0 +1,29 @@
+{
+  "name": "AT77-03M \"Atom\"",
+  "race": "Warforged",
+  "level": 3,
+  "class": "Artificer",
+  "subclass": "Armorer",
+
+  "ability scores": {
+    "str": 11,
+    "dex": 12,
+    "con": 18,
+    "int": 19,
+    "wis": 12,
+    "cha": 5
+  },
+  "proficiency bonus": 2,
+
+  "max hp": 30,
+  "current hp": 30,
+  "temp hp": 5,
+  "base armor class": 16,
+  "armor type": "medium",
+  "other ac modifiers": 2,
+  "size": "Medium",
+  "speed": 30,
+  "initiative bonus": 0,
+  "hit die": "d8",
+  "hit dice used": 3
+}
