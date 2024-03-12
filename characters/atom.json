@@ -1,29 +1,93 @@
 {
   "name": "AT77-03M \"Atom\"",
   "race": "Warforged",
-  "level": 3,
+  "background": "Far Traveler",
+  "alignment": "Lawful something?",
+
+  "level": 4,
   "class": "Artificer",
   "subclass": "Armorer",
 
   "ability scores": {
-    "str": 11,
-    "dex": 12,
-    "con": 18,
-    "int": 19,
-    "wis": 12,
-    "cha": 5
+    "strength": 10,
+    "dexterity": 14,
+    "constitution": 16,
+    "intelligence": 20,
+    "wisdom": 12,
+    "charisma": 5
   },
-  "proficiency bonus": 2,
 
-  "max hp": 30,
-  "current hp": 30,
-  "temp hp": 5,
-  "base armor class": 16,
-  "armor type": "medium",
-  "other ac modifiers": 2,
-  "size": "Medium",
-  "speed": 30,
+  "hp": {
+    "max": 31,
+    "current": 25,
+    "temp": 0,
+    "hit die": 8,
+    "hit dice used": 1
+  },
+
+  "ac": {
+    "base": 15,
+    "armor type": "medium",
+    "shield equipped": true,
+    "shield bonus": 2,
+    "other bonuses": {
+      "Warforged": 1
+    }
+  },
+
+  "proficiencies": {
+    "saving throws": [
+      "constitution",
+      "intelligence"
+    ],
+    "skills": [
+      "sleight of hand",
+      "arcana",
+      "investigation",
+      "insight",
+      "perception"
+    ],
+
+    "simple weapons": true,
+    "martial weapons": false,
+    "light armor": true,
+    "medium armor": true,
+    "heavy armor": true,
+    "shields": true,
+
+    "languages": [
+      "Common",
+      "Elvish"
+    ],
+
+    "tools": [
+      "Tinkers'",
+      "Smiths'",
+      "Theives'",
+      "Cartographers'"
+    ],
+    
+    "other": []
+  },
+
+  "movement speed": {
+    "walking": 30,
+    "swimming": 0,
+    "flying": 0
+  },
+
+  "spellcasting": {
+    "available slots": [3, 0, 0, 0, 0],
+    "max slots": [4, 3, 3, 3, 2],
+    "unused slots": [2, 0, 0, 0, 0]
+  },
+
   "initiative bonus": 0,
-  "hit die": "d8",
-  "hit dice used": 3
+  "size": "Medium",
+
+  "racial traits": {
+    "Constructed Resilience": "You were created to have remarkable fortitude, represented by the following benefits:\n- You have advantage on saving throws against being poisoned, and you have resistance to poison damage\n- You don't need to eat, drink, or breathe.\n- You are immune to disease.\n- You don't need to sleep, and magic can't put you to sleep.",
+    "Sentry's Rest": "When you take a long rest, you must spend at least six hours in an inactive, motionless state, rather than sleeping. In this state, you appear inert, but it doesn't render you unconscious, and you can see and hear as normal.",
+    "Integrated Protection": "Your body has built-in defensive layers, which can be enhanced with armor:\n- You gain a +1 bonus to Armor Class.\n- You can don only armor with which you have proficiency. To don armor other than a shield, you must incorporate it into your body over the course of 1 hour, during which you remain in contact with the armor. To doff armor, you must spend 1 hour removing it. You can rest while donning or doffing armor in this way.\n- While you live, the armor incorporated into your body can't be removed against your will."
+  }
 }
